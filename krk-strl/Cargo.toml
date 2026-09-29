@@ -1,0 +1,9 @@
+[package]
+name = "krk-strl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-ets = { path = "../krk-ets" }
+serde = { version = "1.0", features = ["derive"] }
+chrono = { version = "0.4", features = ["serde"] }

@@ -1,0 +1,10 @@
+[package]
+name = "krk-invariant-gate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-edm = { path = "../krk-edm" }
+krk-egs = { path = "../krk-egs" }
+krk-experiment = { path = "../krk-experiment" }
+serde = { version = "1.0", features = ["derive"] }

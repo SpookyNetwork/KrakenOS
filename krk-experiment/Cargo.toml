@@ -1,0 +1,8 @@
+[package]
+name = "krk-experiment"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-edm = { path = "../krk-edm" }
+serde = { version = "1.0", features = ["derive"] }

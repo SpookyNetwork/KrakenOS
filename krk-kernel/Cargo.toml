@@ -1,0 +1,12 @@
+[package]
+name = "krk-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-dcmp = { path = "../krk-dcmp" }
+krk-sat = { path = "../krk-sat" }
+krk-state = { path = "../krk-state" }
+krk-tee = { path = "../krk-tee" }
+krk-psc = { path = "../krk-psc" }
+serde = { version = "1.0", features = ["derive"] }

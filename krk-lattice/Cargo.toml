@@ -1,0 +1,9 @@
+[package]
+name = "krk-lattice"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-state = { path = "../krk-state" }
+krk-sat = { path = "../krk-sat" }
+krk-temporal = { path = "../krk-temporal" }

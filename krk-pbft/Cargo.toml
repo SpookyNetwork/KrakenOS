@@ -1,0 +1,11 @@
+[package]
+name = "krk-pbft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+krk-ac = { path = "../krk-ac" }
+krk-strl = { path = "../krk-strl" }
+krk-ets = { path = "../krk-ets" }
+krk-psc = { path = "../krk-psc" }

@@ -1,0 +1,13 @@
+[package]
+name = "krk-safety-kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-ac = { path = "../krk-ac" }
+krk-strl = { path = "../krk-strl" }
+krk-quotient = { path = "../krk-quotient" }
+krk-ets = { path = "../krk-ets" }
+krk-sat = { path = "../krk-sat" }
+krk-psc = { path = "../krk-psc" }
+serde = { version = "1.0", features = ["derive"] }

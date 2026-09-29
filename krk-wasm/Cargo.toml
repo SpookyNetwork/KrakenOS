@@ -1,0 +1,17 @@
+[package]
+name = "krk-wasm"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+runtime = ["wasmtime"]
+
+[dependencies]
+blake3 = { version = "1.5", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+postcard = "1.0"
+krk-tee = { path = "../krk-tee" }
+krk-state = { path = "../krk-state" }
+krk-sat = { path = "../krk-sat" }
+wasmtime = { version = "20", optional = true }

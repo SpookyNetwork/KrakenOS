@@ -1,0 +1,8 @@
+[package]
+name = "krk-por"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-temporal = { path = "../krk-temporal" }
+serde = { version = "1.0", features = ["derive"] }

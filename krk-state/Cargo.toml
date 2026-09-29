@@ -1,0 +1,10 @@
+[package]
+name = "krk-state"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake3 = { version = "1.5", features = ["serde"] }
+serde = { version = "1.0", features = ["derive"] }
+postcard = "1.0"
+krk-tee = { path = "../krk-tee" }

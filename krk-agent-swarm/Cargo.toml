@@ -1,0 +1,10 @@
+[package]
+name = "krk-agent-swarm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-control-plane = { path = "../krk-control-plane" }
+krk-psc = { path = "../krk-psc" }
+krk-sandbox = { path = "../krk-sandbox" }
+serde = { version = "1.0", features = ["derive"] }

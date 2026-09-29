@@ -1,0 +1,25 @@
+[package]
+name = "krk-node"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "krk_node"
+path = "src/main.rs"
+
+[[bin]]
+name = "krk-node"
+path = "src/main.rs"
+
+[dependencies]
+krk-tee = { path = "../krk-tee" }
+krk-dcmp = { path = "../krk-dcmp" }
+krk-sat = { path = "../krk-sat" }
+krk-state = { path = "../krk-state" }
+krk-lattice = { path = "../krk-lattice" }
+krk-temporal = { path = "../krk-temporal" }
+
+# Serialization & Utils
+serde = { version = "1.0", features = ["derive"] }
+blake3 = { version = "1.5", features = ["serde"] }
+tokio = { version = "1.34", features = ["full"] }

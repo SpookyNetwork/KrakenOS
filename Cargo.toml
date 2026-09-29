@@ -1,8 +1,49 @@
 [workspace]
+members = [
+    "krk-kernel",
+    "krk-dcmp",
+    "krk-sat",
+    "krk-state",
+    "krk-tee",
+    "krk-wasm",
+    "krk-lattice",
+    "krk-replay",
+    "krk-proof",
+    "krk-pressure",
+    "krk-temporal",
+    "krk-por",
+    "krk-symbolic",
+    "krk-admissibility",
+    "krk-byzantine",
+    "krk-proof-graph",
+    "krk-heuristics",
+    "krk-node",
+    "krk-sim",
+    "krk-quotient",
+    "krk-safety-kernel",
+    "krk-cegar",
+    "krk-calibration",
+    "krk-edm",
+    "krk-egs",
+    "krk-experiment",
+    "krk-invariant-gate",
+    "krk-ets",
+    "krk-strl",
+    "krk-eal",
+    "krk-ac",
+    "krk-pbft",
+    "krk-rfc",
+    "krk-algebra",
+    "krk-adversarial-bench",
+    "krk-psc",
+    "krk-obs",
+    "krk-os",
+    "krk-attention",
+    "krk-control-plane",
+    "krk-agent-swarm",
+    "krk-memory-plane",
+    "krk-sandbox",
+    "krk-runtime-supervisor",
+    "krk-doctrine"
+]
 resolver = "2"
-members = []
-
-[workspace.package]
-version = "0.1.0"
-edition = "2021"
-license = "MIT"

@@ -1,0 +1,9 @@
+[package]
+name = "krk-cegar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+krk-quotient = { path = "../krk-quotient" }
+krk-sat = { path = "../krk-sat" }
+serde = { version = "1.0", features = ["derive"] }

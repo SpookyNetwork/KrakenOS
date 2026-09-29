@@ -1,0 +1,16 @@
+[package]
+name = "krk-runtime-supervisor"
+version = "0.1.0"
+edition = "2021"
+description = "Distributed Runtime Supervisor for KRK-OS (Priority 5)"
+
+[dependencies]
+krk-psc = { path = "../krk-psc" }
+krk-control-plane = { path = "../krk-control-plane" }
+krk-agent-swarm = { path = "../krk-agent-swarm" }
+krk-sandbox = { path = "../krk-sandbox" }
+
+tokio = { version = "1.32", features = ["full"] }
+tracing = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
